@@ -8,4 +8,4 @@
 5. SV to Matrix
 6. Matrix to CSV
 7. Delinearization
-8. Pretty print Matrix (with to_string())1
+8. Pretty print Matrix (with to_string())
