@@ -16,6 +16,7 @@ public:
     Matrix2DArray mat2D(m, n);
     string line;
     int row = 0;
+    // Loops over lines
     while (true)
     {
       file >> line;
@@ -23,6 +24,7 @@ public:
         break;
       string num;
       int col = 0;
+      // Loops over characters of each line
       for (int i = 0; i < line.length(); i++)
       {
         if (line[i] == ',')
